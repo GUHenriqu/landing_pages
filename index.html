@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.jpg">
+    <meta name="description" content="Text Here">
+    <meta name="keywords" content="Text Here">
+    <meta name="author" content="Gustavo P">
+    <meta name="rating" content="General">
+    <title>Landing Page</title>
+</head>
+<body>
+    <!--Início da NAV-->
+    <header>
+        <div class="container-grid conteudo-header">
+            <img class="logo" src="./img/logos_senai_branco.png" alt="Logo Senai">
+            <nav id="menu-header" class="menu-header">
+                <a href="#" title="Início da Página">Home</a>
+                <a href="#mouse">Sobre</a>
+                <a href="#endereco">endereço</a>
+                <a class="botao" href="mailto.example@email.com">contate-nos</a>
+            </nav>
+            <a class="menu-barras" href="javascript: void(0)" onclick="mostrarMenu()"><i id="icone-menu" class="fas fa-bars"></i></a>        
+        </div>
+    </header>
+    <!--Fim da NAV-->
+
+    <main>
+        <!--Início do Banner-->
+        <div class="banner">
+            <div class="container-grid conteudo-banner">
+                <div class="texto-banner">
+                    <h1>Cursos tecnicos senai</h1>
+                    <div class="linha-amarela"></div>
+                    <span class="titulo-senai">Senai informatica</span>
+                    <img class="mouse" id="mouse" src="./img/mouse-down.png" alt="Imagem de um Mouse">
+                </div>
+            </div>
+        </div>
+        <!--Fim do Banner-->
+
+        <!--Início de Projetos-->
+        <section class="sobre-projetos">
+            <div class="container-grid">
+                <h2> Ola estudante</h2>
+                <div class="conteudo-sobre">
+                    <img class="imagem-sobre" src="./img/imagem-seção-sobre.jpg" alt="Nossos Projetos">
+                    <div class="texto-sobre">
+                        <span class="texto-participantes">Senai 2022</span>
+                        <h3>Mais de 80 alunos organizados em 16 grupos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ex eius eos fugit veritatis rem repellat culpa. Est expedita, temporibus neque harum, amet ipsam, nesciunt fugit sit asperiores doloremque nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim de Projetos-->
+
+        <!--Início da Info-->
+        <section class="info">
+            <div class="container-grid conteudo-info">
+                <div class="card-info">
+                    <h3>local</h3>
+                    <p>Sao paulo</p>
+                </div>
+                <div class="card-info">
+                    <h3>duraçao</h3>
+                    <p>+90 horas</p>
+                </div>
+                <div class="card-info">
+                    <h3>desafio</h3>
+                    <p>+30 desafios</p>
+                </div>                
+            </div>
+        </section>
+        <!--Fim da Info-->
+
+        <!--Início do Endereço-->
+        <section class="endereco" id="endereco">
+            <div class="container-grid conteudo-endereco">
+                <h2>Endereço:</h2>
+                <div class="texto-endereco">
+                    <p>Alameda Barão de Limeira, 539 Santa Cecília, São Paulo - SP CEP: 0102-001</p>
+                </div>
+                <!--
+                    <a class="mapa" href="https://goo.gl/maps/Wh6hbeFS51RCSmJQ9" target="_blank"><img src="./img/mapa.png" alt="Localização da Empresa"></a>
+                -->
+                <div class="container-mapa">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1293.2604981978704!2d-46.64635608304811!3d-23.53634797277857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5843deb99025%3A0xb23619858bc7e63e!2sEscola%20SENAI%20de%20Inform%C3%A1tica!5e0!3m2!1spt-PT!2sbr!4v1654214850482!5m2!1spt-PT!2sbr" width="850" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="container-video">
+                    <iframe class="video-responsivo" width="560" height="315" src="https://www.youtube.com/embed/43LaQjk8pxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <!--Fim do Endereço-->
+
+        <!--Início Footer-->
+        <footer>
+            <span>Copyright &copy; 2022 - Senai Gaspar</span>
+        </footer>
+        <!--Fim do Footer-->
+    </main>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="./css/layout_tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/layout_smartphone.css">
+    <script src="https://kit.fontawesome.com/72590e989c.js" crossorigin="anonymous"></script>
+    <script src="./js/mostrarmenu.js"></script>
+</body>
+</html>
