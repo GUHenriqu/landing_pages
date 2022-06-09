@@ -22,7 +22,7 @@ body {
 
 header {
     z-index: 1;
-    background: #4c0369;
+    background: #ff0000;
     height: 80px;
     position: fixed;
     width: 100vw;
@@ -47,7 +47,7 @@ header {
 }
 
 .menu-header a {
-    color: rgb(45, 4, 78);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.25em;
@@ -58,6 +58,10 @@ header {
     font-size: 1.6em;
     transition: 0.3s;
     text-shadow: 4px 4px 6px #0000007a;
+}
+.whatsapp {
+    height: 20px;
+    position: fixed;
 }
 
 .botao {
@@ -88,7 +92,7 @@ header {
 /*Início CSS Banner*/
 
 .banner {
-    background-image: url(../img/lol4teste.jpg);
+    background-image: url(../img/imagem-fundo-banner.jpg);
     height: 768px;
     background-repeat: no-repeat;
     background-position: center;
@@ -119,7 +123,7 @@ h1 {
 
 .titulo-senai {
     font-family: 'Courier New', Courier, monospace;
-    color: #3a0658;
+    color: #ffffff;
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 600;
@@ -220,7 +224,7 @@ h1 {
 }
 
 .endereco {
-    background-image: url(../img/lol3teste.jpg);
+    background-image: url(../img/opp.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -238,7 +242,7 @@ h1 {
 }
 
 .texto-endereco {
-    color: #ffffff;
+    color: #a811ff;
     font-family: 'Courier New', Courier, monospace;
     background-color: #010010;
     border: solid 2px #6c0985;
@@ -291,7 +295,7 @@ h1 {
 footer {
     height: 80px;
     background: #1a1a1d;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
